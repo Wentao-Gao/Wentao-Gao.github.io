@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in China, University of Leicester & Dalian University of Techonology, 2017-2021
 * M.S. in Bristol(UK), University of Bristol, 2021-2022
-* Ph.D in Adelaide(Australia), University of South Australia, 2023 (expected)
+* Ph.D in Adelaide(Australia), University of South Australia, 2023
 
 Work experience
 ======
@@ -25,6 +25,7 @@ Work experience
 Skills
 ======
 * Python
+* Causal inference
 * Machine learning
   * Deep learning
   * Reinforcement learning
