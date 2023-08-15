@@ -14,29 +14,11 @@
 
 | Paper | Summary |
 | --- | --- |
-| http://polyu.edu.hk | 1. 本文研究涉及两个时间序列，一个与 SPI 月度干旱指数数据相关，另一个与 SPI 参数的六个月数据相关。并且设计了不同的差分时间序列（包括季节性，非季节性，以及混合差分以形成新的时间序列）。
-2. This research utilizes ARIMA models and their general form, multiplicative seasonal ARIMA, to predict the drought index. Using assess metrics including: correlation coefficient (R),RMSE and MAE. 
-3. 一些小概念：Standardized Precipitation Index，Time Series Stationarity |
-| https://research-repository.griffith.edu.au/bitstream/handle/10072/404189/Gyasi-Agyei483825-Published.pdf?sequence=2 | 1. 在这项研究中，建议将机器学习与标准化降水蒸散指数 (SPEI) 相结合，以分析 1980 年至 2019 年中国青藏高原代表性案例研究中的干旱情况。
-2. Four machine learning models of Random Forest (RF), the Extreme Gradient Boost (XGB), the Convolutional neural network (CNN) and the Long-term short memory (LSTM) 并比较这些模型在 SPEI 预测中的准确性和稳定性，并根据预测准确性选择最佳模型。
-3. 一些小概念：SPEI, Total Drought Duration (TDD), Drought Severity (DS), drought peak (DP) and Spatial Extent of Drought (SEoD)which were analyzed for specific drought events, Taylor diagrams
-4. 实验中首先将时间序列数据进行归一化，然后分别用RF, XGB, CNN 和LSTM的方法在七个气候输入组合的数据集分别训练模型。
-5. 评价指标: Nash–Sutcliffe model efficiency coefficient (NSE), MSE, MAE, mean bias error (MBE) and R. |
-| https://www.scirp.org/pdf/jwarp_2021081015095566.pdf | 1. 本研究提出并评估了新开发的准确预测模型，该模型利用各种水文、气象和地质水文参数，以及使用具有各种预测提前期的人工神经网络 (ANN) 模型. 本研究的主要重点是构建并验证预测各种干旱情景的可行性和似是而非的准确性，包括次区域尺度的气象、水文和农业干旱情景。
-2. 干旱指标：PDSI、SPI、SMI 和 ENSO，文中均有简介
-3. 利用时间序列神经网络作为未来干旱预报情景的预测工具。特别是，具有外部输入的非线性自回归 (NARX) 模型被用作首选的神经网络工具。该模型在其过程中同时使用时间序列和回归分析。并用MSE来作为评估指标。 |
-| https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7485508/ | 1. Propose an ensemble approach for monthly drought prediction and to define and examine wet/dry events.
-2. Ensemble models are divided into three categories based on several weighting techniques that are the EEDP, WEDP and CEDP model.
-3. 干旱是根据三个集合模型预测的，即等集合干旱预测（EEDP），加权集合干旱预测 (WEDP) 和条件集合干旱预测 (CEDP) 模型。
-4. 评估指标：MAE, MSE, RMSE, MAPE, NRMSE, AB test |
-| https://link.springer.com/article/10.1007/s12652-022-03701-7 | 1. 本文介绍了一种新的混合智能模型，即用于短期气象干旱预报的卷积长短期记忆（CNN-LSTM）的开发和验证程序。CNN-LSTM将长短期记忆（LSTM）网络与卷积神经网络（CNN）作为特征提取器进行偶联。
-2. 在这项研究中，对3个月的SPEI（SPEI-3）和6个月的SPEI（SPEI-6）进行了建模和预测，时间为一个月的提前期。使用自相关函数（ACF）和部分自相关函数（PACF）确定最佳输入向量（最佳滞后）。以经典的ANN和遗传编程（GP）技术为基准，以及两种深度学习技术，即LSTM和CNN，作为基线，用于对相关的预测场景进行建模
-3. 评估指标：including absolute error measures(RMSE, MAE) , best-fit goodness (NSE: Nash–Sutcliffe coefficient, and WI: Willmott's index)
-4. 也是使用SPEI作为衡量干旱的 |
-- 这几篇文章中了解到包括干旱指标（PDSI、SPI、SMI 和 ENSO，SPEI等），一些可以应用在气象数据中的模型（包括传统时间序列方法，AR，ARMA，ARIMA等和与机器学习深度学习相结合的时间序列方法ANN，RNN，LSTM，CNN-LSTM，Transformer等），以及评估模型效果的指标（MAE, MSE, RMSE, MAPE, NRMSE, AB test）。
-- 在文章对气象数据的预处理中，我们可以了解到以下常见的时间序列分析。
-1. 类似于引导策略搜索[(23) Physics-Guided AI for Learning Spatiotemporal Dynamics - YouTube](https://www.youtube.com/watch?v=eGz2y3DB_Sw)
-2. 简单了解了Transformer的架构以及其与RNN的区别。
+| http://polyu.edu.hk | 1. 本文研究涉及两个时间序列，一个与 SPI 月度干旱指数数据相关，另一个与 SPI 参数的六个月数据相关。并且设计了不同的差分时间序列（包括季节性，非季节性，以及混合差分以形成新的时间序列）.2. This research utilizes ARIMA models and their general form, multiplicative seasonal ARIMA, to predict the drought index. Using assess metrics including: correlation coefficient (R),RMSE and MAE. 3. 一些小概念：Standardized Precipitation Index，Time Series Stationarity |
+| https://research-repository.griffith.edu.au/bitstream/handle/10072/404189/Gyasi-Agyei483825-Published.pdf?sequence=2 | 1. 在这项研究中，建议将机器学习与标准化降水蒸散指数 (SPEI) 相结合，以分析 1980 年至 2019 年中国青藏高原代表性案例研究中的干旱情况。2. Four machine learning models of Random Forest (RF), the Extreme Gradient Boost (XGB), the Convolutional neural network (CNN) and the Long-term short memory (LSTM) 并比较这些模型在 SPEI 预测中的准确性和稳定性，并根据预测准确性选择最佳模型。3. 一些小概念：SPEI, Total Drought Duration (TDD), Drought Severity (DS), drought peak (DP) and Spatial Extent of Drought (SEoD)which were analyzed for specific drought events, Taylor diagrams4. 实验中首先将时间序列数据进行归一化，然后分别用RF, XGB, CNN 和LSTM的方法在七个气候输入组合的数据集分别训练模型。5. 评价指标: Nash–Sutcliffe model efficiency coefficient (NSE), MSE, MAE, mean bias error (MBE) and R. |
+| https://www.scirp.org/pdf/jwarp_2021081015095566.pdf | 1. 本研究提出并评估了新开发的准确预测模型，该模型利用各种水文、气象和地质水文参数，以及使用具有各种预测提前期的人工神经网络 (ANN) 模型. 本研究的主要重点是构建并验证预测各种干旱情景的可行性和似是而非的准确性，包括次区域尺度的气象、水文和农业干旱情景。2. 干旱指标：PDSI、SPI、SMI 和 ENSO，文中均有简介3. 利用时间序列神经网络作为未来干旱预报情景的预测工具。特别是，具有外部输入的非线性自回归 (NARX) 模型被用作首选的神经网络工具。该模型在其过程中同时使用时间序列和回归分析。并用MSE来作为评估指标。 |
+| https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7485508/ | 1. Propose an ensemble approach for monthly drought prediction and to define and examine wet/dry events.2. Ensemble models are divided into three categories based on several weighting techniques that are the EEDP, WEDP and CEDP model.3. 干旱是根据三个集合模型预测的，即等集合干旱预测（EEDP），加权集合干旱预测 (WEDP) 和条件集合干旱预测 (CEDP) 模型。4. 评估指标：MAE, MSE, RMSE, MAPE, NRMSE, AB test |
+| https://link.springer.com/article/10.1007/s12652-022-03701-7 | 1. 本文介绍了一种新的混合智能模型，即用于短期气象干旱预报的卷积长短期记忆（CNN-LSTM）的开发和验证程序。CNN-LSTM将长短期记忆（LSTM）网络与卷积神经网络（CNN）作为特征提取器进行偶联。2. 在这项研究中，对3个月的SPEI（SPEI-3）和6个月的SPEI（SPEI-6）进行了建模和预测，时间为一个月的提前期。使用自相关函数（ACF）和部分自相关函数（PACF）确定最佳输入向量（最佳滞后）。以经典的ANN和遗传编程（GP）技术为基准，以及两种深度学习技术，即LSTM和CNN，作为基线，用于对相关的预测场景进行建模3. 评估指标：including absolute error measures(RMSE, MAE) , best-fit goodness (NSE: Nash–Sutcliffe coefficient, and WI: Willmott's index)4. 也是使用SPEI作为衡量干旱的 |- 这几篇文章中了解到包括干旱指标（PDSI、SPI、SMI 和 ENSO，SPEI等），一些可以应用在气象数据中的模型（包括传统时间序列方法，AR，ARMA，ARIMA等和与机器学习深度学习相结合的时间序列方法ANN，RNN，LSTM，CNN-LSTM，Transformer等），以及评估模型效果的指标（MAE, MSE, RMSE, MAPE, NRMSE, AB test）。- 在文章对气象数据的预处理中，我们可以了解到以下常见的时间序列分析。1. 类似于引导策略搜索[(23) Physics-Guided AI for Learning Spatiotemporal Dynamics - YouTube](https://www.youtube.com/watch?v=eGz2y3DB_Sw)2. 简单了解了Transformer的架构以及其与RNN的区别。
 
 ## 时间序列处理的一些统计模型
 
