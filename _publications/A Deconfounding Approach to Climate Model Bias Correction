@@ -2,14 +2,30 @@
 title: "A Deconfounding Approach to Climate Model Bias Correction"
 collection: publications
 permalink: /publication/A Deconfounding Approach to Climate Model Bias Correction
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: 'Bias correction using Time series forecasting models with deconfounding method'
+date: 2024-08-22
+venue: 'Conference 1'
+paperurl: 'https://arxiv.org/pdf/2408.12063'
+citation: 
+'@misc{gao2024deconfoundingapproachclimatemodel,
+      title={A Deconfounding Approach to Climate Model Bias Correction}, 
+      author={Wentao Gao and Jiuyong Li and Debo Cheng and Lin Liu and Jixue Liu and Thuc Duy Le and Xiaojing Du and Xiongren Chen and Yanchang Zhao and Yun Chen},
+      year={2024},
+      eprint={2408.12063},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2408.12063}, 
+}'
 ---
-This paper is about the number 2. The number 3 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Download paper here](https://arxiv.org/pdf/2408.12063)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+Recommended citation: @misc{gao2024deconfoundingapproachclimatemodel,
+      title={A Deconfounding Approach to Climate Model Bias Correction}, 
+      author={Wentao Gao and Jiuyong Li and Debo Cheng and Lin Liu and Jixue Liu and Thuc Duy Le and Xiaojing Du and Xiongren Chen and Yanchang Zhao and Yun Chen},
+      year={2024},
+      eprint={2408.12063},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2408.12063}, 
+}
