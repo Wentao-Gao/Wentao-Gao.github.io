@@ -1,31 +1,15 @@
 ---
-title: "[Under Review]A Deconfounding Approach to Climate Model Bias Correction"
+title: "A Deconfounding Approach to Climate Model Bias Correction"
 collection: publications
-permalink: /publication/A Deconfounding Approach to Climate Model Bias Correction
-excerpt: 'Bias correction using Time series forecasting models with deconfounding method'
-date: 2024-08-22
-venue: 'Conference 1'
-paperurl: 'https://arxiv.org/pdf/2408.12063'
-citation: 
-'@misc{gao2024deconfoundingapproachclimatemodel,
-      title={A Deconfounding Approach to Climate Model Bias Correction}, 
-      author={Wentao Gao and Jiuyong Li and Debo Cheng and Lin Liu and Jixue Liu and Thuc Duy Le and Xiaojing Du and Xiongren Chen and Yanchang Zhao and Yun Chen},
-      year={2024},
-      eprint={2408.12063},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML},
-      url={https://arxiv.org/abs/2408.12063}, 
-}'
+permalink: /publication/2024-08-12-deconfounding-approach-climate-model
+excerpt: 'This paper presents a deconfounding method for climate model bias correction, improving accuracy by accounting for latent confounders.'
+date: 2024-08-12
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2408.12063'
+citation: 'Wentao Gao, Jiuyong Li, Debo Cheng, Lin Liu, Jixue Liu, Thuc Duy Le, Xiaojing Du, Xiongren Chen, Yanchang Zhao, Yun Chen. (2024). &quot;A Deconfounding Approach to Climate Model Bias Correction.&quot; <i>arXiv</i>. 2408.12063.'
 ---
+This paper presents a deconfounding method for climate model bias correction, improving accuracy by accounting for latent confounders.
 
-[Download paper here](https://arxiv.org/pdf/2408.12063)
+[Download paper here](https://arxiv.org/abs/2408.12063)
 
-Recommended citation: @misc{gao2024deconfoundingapproachclimatemodel,
-      title={A Deconfounding Approach to Climate Model Bias Correction}, 
-      author={Wentao Gao and Jiuyong Li and Debo Cheng and Lin Liu and Jixue Liu and Thuc Duy Le and Xiaojing Du and Xiongren Chen and Yanchang Zhao and Yun Chen},
-      year={2024},
-      eprint={2408.12063},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML},
-      url={https://arxiv.org/abs/2408.12063}, 
-}
+Recommended citation: Wentao Gao, Jiuyong Li, Debo Cheng, Lin Liu, Jixue Liu, Thuc Duy Le, Xiaojing Du, Xiongren Chen, Yanchang Zhao, Yun Chen. (2024). "A Deconfounding Approach to Climate Model Bias Correction." <i>arXiv</i>. 2408.12063.
