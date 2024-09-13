@@ -14,7 +14,7 @@ redirect_from:
 - 💞️ I’m looking to collaborate on Data science and an Intern in DS.
 - ***请不要相信，胜利就像山坡上的蒲公英一样唾手可得；但请相信，世上总有一些美好值得我们全力以赴，哪怕粉身碎骨。***
 - 📫 How to reach me
-email: gwt9970161@163.com
+email: gaowy014@mymail.unisa.edu.au
 
 <!---
 gwt9970161/gwt9970161 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
