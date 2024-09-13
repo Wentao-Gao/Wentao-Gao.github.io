@@ -1,0 +1,15 @@
+---
+title: "[AAAI 2024 Accepted]Instrumental Variable Estimation for Causal Inference in Longitudinal Data with Time-Dependent Latent Confounders"
+collection: publications
+permalink: /publication/2023-12-07-instrumental-variable-estimation
+excerpt: 'This paper presents a method for instrumental variable estimation in longitudinal data, addressing time-dependent latent confounders.'
+date: 2023-12-07
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2312.07175'
+citation: 'Debo Cheng, Ziqi Xu, Jiuyong Li, Lin Liu, Jixue Liu, Wentao Gao, Thuc Duy Le. (2023). &quot;Instrumental Variable Estimation for Causal Inference in Longitudinal Data with Time-Dependent Latent Confounders.&quot; <i>arXiv</i>. 2312.07175.'
+---
+This paper presents a method for instrumental variable estimation in longitudinal data, addressing time-dependent latent confounders.
+
+[Download paper here](https://arxiv.org/abs/2312.07175)
+
+Recommended citation: Debo Cheng, Ziqi Xu, Jiuyong Li, Lin Liu, Jixue Liu, Wentao Gao, Thuc Duy Le. (2023). "Instrumental Variable Estimation for Causal Inference in Longitudinal Data with Time-Dependent Latent Confounders." <i>arXiv</i>. 2312.07175.
