@@ -1,0 +1,67 @@
+---
+title: "INFS 3081 UO Predictive Analytics"
+collection: teaching
+type: "Undergraduate course"
+permalink: /teaching/2024-uo-predictive-analytics
+venue: "University of South Australia, Department of STEM"
+date: 2024-09-13
+location: "Adelaide, Australia"
+---
+Got it! Here's the updated content for the **UO Predictive Analytics (INFS3081)** course:
+
+---
+
+Course Aim:
+
+To enable students to perform, on large data sets, data exploration, visualisation, and preliminary analysis using predictive modelling techniques.
+
+## Course Content:
+
+Data exploration, visualisation and preliminary analysis:
+- Advanced exploratory data analysis
+- Data visualisation
+- Data quality verification
+- Missing data analysis
+- Data manipulation and cleaning
+
+Predictive modelling:
+- Logistic regression and generalised linear models
+- Decision trees
+- Random forests
+- Generalised boosted models
+- Naive Bayes classifiers and other techniques
+
+======
+
+## Course Objectives:
+
+1. Apply standard processes to prepare large data sets for data exploration.
+2. Perform data exploration on large data sets using visualisation, statistical techniques, and data mining techniques to identify relationships and opportunities.
+3. Develop accurate descriptive and predictive models based on large data sets.
+4. Perform predictive analytics on large data sets using an industry-standard software toolset.
+
+======
+
+## Graduate Qualities:
+
+A graduate of UniSA:
+
+- **GQ1**: Operates effectively with and upon a body of knowledge of sufficient depth to begin professional practice.
+- **GQ2**: Is prepared for life-long learning in pursuit of personal development and excellence in professional practice.
+- **GQ3**: Is an effective problem solver, capable of applying logical, critical, and creative thinking to a range of problems.
+- **GQ4**: Can work both autonomously and collaboratively as a professional.
+- **GQ5**: Is committed to ethical action and social responsibility as a professional and citizen.
+- **GQ6**: Communicates effectively in professional practice and as a member of the community.
+- **GQ7**: Demonstrates international perspectives as a professional and as a citizen.
+
+Graduate Qualities Mapping:
+
+| Objective | GQ1 | GQ2 | GQ3 | GQ4 | GQ5 | GQ6 | GQ7 |
+|-----------|-----|-----|-----|-----|-----|-----|-----|
+| 1         |  Y  |  N  |  N  |  N  |  N  |  N  |  N  |
+| 2         |  Y  |  N  |  Y  |  N  |  Y  |  N  |  N  |
+| 3         |  Y  |  N  |  Y  |  N  |  N  |  Y  |  N  |
+| 4         |  Y  |  N  |  Y  |  N  |  N  |  Y  |  Y  |
+
+======
+
